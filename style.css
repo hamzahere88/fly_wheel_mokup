@@ -1,0 +1,105 @@
+/* gor all screen margin padding 0 px */
+* {
+  padding: 0;
+  margin: 0;
+}
+/* blue screen */
+.blue_screen {
+  background-color: #50c6db;
+  display: inline-block;
+  width: 100%;
+  
+}
+body{
+    font-family: monospace,sans-serif;
+    color: white;
+}
+/* heeader for nav */
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 30px;
+
+}
+/* ul in nav */
+ul {
+  display: flex;
+  list-style-type: none;
+}
+/* ul ka  li  */
+ul li {
+  padding: 10px;
+  align-self: center;
+}
+/* main logo image */
+.logo_image {
+  width: 230px;
+  height: 100px;
+}
+/* header content aligments */
+/* buton in nav */
+ul button {
+  align-self: center;
+  background-color: white;
+  border: 2px solid white;
+  border-radius: 50px;
+  color: #50c6db;
+  padding: 10px;
+  width: 105px;
+  height: 40px;
+
+}
+/* ul a tag */
+ul a
+{
+align-self: center;
+text-decoration: none;
+color: white;
+font-size: 18px;
+font-weight: 700;;
+}
+/* nav drop down */
+ul select
+{
+    background-color: transparent;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    align-self: center;
+}
+/* footer end here */
+
+/* main1 start here */
+.main1
+{
+    display: flex;
+    justify-content: space-around;
+}
+/* kef saide section in main1 */
+.main1_lef_c
+{
+    display: flex;
+    flex-direction: column;
+}
+/* main 1 left p */
+.main1_lef_c p{
+    font-size: 50px;
+}
+/* main 1 image left saide */
+.free_migration
+{
+width: 130px;
+}
+/* main1 right saide section */
+.main1_rig_c
+{
+    display: flex;
+    flex-direction: column;
+}
+/* laptop image */
+.laptop_img{
+  width: 420px;
+  height: 375px;
+}
